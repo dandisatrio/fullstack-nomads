@@ -4,9 +4,9 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class DetailController extends Controller
+class CheckoutController extends Controller
 {
     public function index(Request $request) {
-        return view('pages.user.detail');
+        return view('pages.user.checkout');
     }
 }
