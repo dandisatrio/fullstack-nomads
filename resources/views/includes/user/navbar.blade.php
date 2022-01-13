@@ -1,8 +1,8 @@
 <!-- Navbar -->
 <div class="container">
     <nav class="navbar navbar-expand-lg navbar-light bg-light px-3">
-      <a href="#" class="navbar-brand">
-        <img src="frontend/images/logo_nomads.png" alt="logo nomads" />
+      <a href="{{ route('home') }}" class="navbar-brand">
+        <img src="{{ url('frontend/images/logo_nomads.png') }}" alt="logo nomads" />
       </a>
       <button
         class="navbar-toggler"

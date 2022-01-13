@@ -176,12 +176,12 @@
                 </div>
                 </div>
                 <div class="join-container">
-                <a href="success.html" class="btn d-grid gap-2 btn-join-now mt-3 py-2">
+                <a href="{{ route('checkout-success') }}" class="btn d-grid gap-2 btn-join-now mt-3 py-2">
                     I have Made Payment
                 </a>
                 </div>
                 <div class="text-center mt-3">
-                <a href="detail.html" class="text-muted" style="text-decoration: none;">
+                <a href="{{ route('detail') }}" class="text-muted" style="text-decoration: none;">
                     Cancel Booking
                 </a>
                 </div>
