@@ -97,11 +97,10 @@
                 <div class="card card-details card-right">
                 <h2>Members are going</h2>
                 <div class="members my-2">
-                    <img src="frontend/images/member/member1.png" class="member-image me-1">
-                    <img src="frontend/images/member/member2.png" class="member-image me-1">
-                    <img src="frontend/images/member/member3.png" class="member-image me-1">
-                    <img src="frontend/images/member/member4.png" class="member-image me-1">
-                    <img src="frontend/images/member/member5.png" class="member-image me-1">
+                    <img src="{{ url('frontend/images/member/member1.png') }}" class="member-image me-1">
+                    <img src="{{ url('frontend/images/member/member2.png') }}" class="member-image me-1">
+                    <img src="{{ url('frontend/images/member/member3.png') }}" class="member-image me-1">
+                    <img src="{{ url('frontend/images/member/member4.png') }}" class="member-image me-1">
                 </div>
                 <hr />
                 <h2>Trip Informations</h2>
