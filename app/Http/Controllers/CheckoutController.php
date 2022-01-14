@@ -34,7 +34,7 @@ class CheckoutController extends Controller
         ]);
 
         TransactionDetail::create([
-            'transaction_id' => $transaction->id,
+            'transactions_id' => $transaction->id,
             'username' => Auth::user()->username,
             'nationality' => 'ID',
             'is_visa' => false,
@@ -54,7 +54,7 @@ class CheckoutController extends Controller
         if($item->is_visa)
         {
             $transaction->transaction_total -= 190;
-            $transaction->additonal_visa -= 190;
+            $transaction->additional_visa -= 190;
         }
 
         $transaction->transaction_total -= $transaction->travel_package->price;
@@ -62,7 +62,7 @@ class CheckoutController extends Controller
         $transaction->save();
         $item->delete();
 
-        return redirect()->route('checkout', $item->transaction-id);
+        return redirect()->route('checkout', $item->transactions_id);
     }
 
     public function create(Request $request, $id) 
@@ -83,7 +83,7 @@ class CheckoutController extends Controller
         if($request->is_visa)
         {
             $transaction->transaction_total += 190;
-            $transaction->additonal_visa += 190;
+            $transaction->additional_visa += 190;
         }
 
         $transaction->transaction_total += $transaction->travel_package->price;
@@ -99,7 +99,7 @@ class CheckoutController extends Controller
         $transaction->transaction_status = 'PENDING';
 
         $transaction->save();
-        
+
         return view('pages.user.success');
     }
 }

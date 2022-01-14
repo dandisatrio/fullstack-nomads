@@ -125,10 +125,13 @@
                 </div>
                 <div class="join-container">
                 @auth
-                    <form action="" method="POST">
-                        <a class="btn d-grid gap-2 btn-join-now mt-3 py-2" type="submit">
-                            Join Now
-                        </a>
+                    <form action="{{ route('checkout-process', $item->id) }}" method="POST">
+                        @csrf
+                        <div class="d-grid gap-2">
+                            <button class="btn btn-join-now mt-3 py-2" type="submit">
+                                Join Now
+                            </button>
+                        </div>
                     </form>
                 @endauth
                 @guest

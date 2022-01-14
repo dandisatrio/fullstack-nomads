@@ -17,7 +17,7 @@ Route::get('/detail/{slug}', [DetailController::class, 'index'])
     ->name('detail');
 
 Route::post('/checkout/{id}', [CheckoutController::class, 'process'])
-    ->name('checkout_process')
+    ->name('checkout-process')
     ->middleware(['auth', 'verified']);
 
 Route::get('/checkout/{id}', [CheckoutController::class, 'index'])
@@ -36,7 +36,7 @@ Route::get('/checkout/confirm/{id}', [CheckoutController::class, 'success'])
     ->name('checkout-success')
     ->middleware(['auth', 'verified']);
 
-    
+
 Route::prefix('admin')
     ->middleware(['auth', 'admin'])
     ->group(function () {
