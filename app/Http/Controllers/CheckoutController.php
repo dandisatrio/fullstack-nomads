@@ -105,6 +105,8 @@ class CheckoutController extends Controller
 
         $transaction->save();
 
+        // return $transaction;
+
         // Send email to user e-ticket
         Mail::to($transaction->user)->send(
             new TransactionSuccess($transaction)
