@@ -509,3 +509,54 @@ header {
     }
   }
 }
+
+.login-container {
+  @media (min-width: 576px) {
+    background: linear-gradient(90deg, #0d1c3f 60%, #EBEEFF 40%);
+    width: 100vw;
+    height: 100vh;
+  }
+}
+
+.login-container {
+    background-color: #0d1c3f;
+    width: 100vw;
+    height: 100vh;
+}
+
+.page-login {
+  height: 100vh;
+
+  .section-left {
+    font-family: "Playfair Display" serif;
+    font-weight: 600;
+    font-size: 50px;
+    text-align: left;
+    color: #fff;
+  }
+
+  .section-right {
+    h1 {
+      color: #fff;
+    }
+    p {
+      a {
+        text-decoration: underline;
+        font-weight: 300;
+        font-size: 16px;
+        text-align: center;
+        color: #bfbfbf;
+      }
+    }
+
+    .btn-register {
+      background-color: #ee8e45;
+      color: #fff;
+
+      &:hover {
+        background-color: #ff9e53;
+        color: #fff;
+      }
+    }
+  }
+}

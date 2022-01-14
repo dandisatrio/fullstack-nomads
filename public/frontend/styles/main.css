@@ -477,4 +477,53 @@ header .btn-get-started:hover {
   background-color: #2a488e;
   color: #fff;
 }
+
+@media (min-width: 576px) {
+  .login-container {
+    background: -webkit-gradient(linear, left top, right top, color-stop(60%, #0d1c3f), color-stop(40%, #EBEEFF));
+    background: linear-gradient(90deg, #0d1c3f 60%, #EBEEFF 40%);
+    width: 100vw;
+    height: 100vh;
+  }
+}
+
+.login-container {
+  background-color: #0d1c3f;
+  width: 100vw;
+  height: 100vh;
+}
+
+.page-login {
+  height: 100vh;
+}
+
+.page-login .section-left {
+  font-family: "Playfair Display" serif;
+  font-weight: 600;
+  font-size: 50px;
+  text-align: left;
+  color: #fff;
+}
+
+.page-login .section-right h1 {
+  color: #fff;
+}
+
+.page-login .section-right p a {
+  text-decoration: underline;
+  font-weight: 300;
+  font-size: 16px;
+  text-align: center;
+  color: #bfbfbf;
+}
+
+.page-login .section-right .btn-register {
+  background-color: #ee8e45;
+  color: #fff;
+}
+
+.page-login .section-right .btn-register:hover {
+  background-color: #ff9e53;
+  color: #fff;
+}
 /*# sourceMappingURL=main.css.map */
