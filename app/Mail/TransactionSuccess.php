@@ -31,7 +31,7 @@ class TransactionSuccess extends Mailable
     public function build()
     {
         return $this
-        ->from('service@nomads.com', 'NOMADS')
+        ->from('service@nomads.id', 'NOMADS')
         ->subject('Tiket NOMADS Anda')
         ->view('email.transaction-success');
     }

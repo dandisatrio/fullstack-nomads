@@ -65,7 +65,7 @@ User Default Account
     Email    : user@mail.com
     Password : user12345
 
-or in another way copy my .env for dummy database gallery, transactions, and users.
+or in another way import my laravel_nomads.sql to your database for dummy database gallery, transactions, and users.
 
 ## See You
 

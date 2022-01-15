@@ -124,14 +124,14 @@
                             alt="User"
                             class="mb-4 rounded-circle"
                         />
-                        <h3 class="mb-3">Angga Risky</h3>
+                        <h3 class="mb-3">Bambang Satrio Gandhi</h3>
                         <p class="testimonial">
                             " It was glorious and I could not stop to say wohooo for
                             every single moment Dankeeeeee "
                         </p>
                         </div>
                         <hr />
-                        <p class="trip-to mt-2">Trip to Ubud</p>
+                        <p class="trip-to mt-2">Trip to Bali</p>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-6 col-lg-4">
@@ -149,7 +149,7 @@
                         </p>
                         </div>
                         <hr />
-                        <p class="trip-to mt-2">Trip to Nusa Penida</p>
+                        <p class="trip-to mt-2">Trip to Nusa Tenggara</p>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-6 col-lg-4">
@@ -167,7 +167,7 @@
                         </p>
                         </div>
                         <hr />
-                        <p class="trip-to mt-2">Trip to Karimun Jawa</p>
+                        <p class="trip-to mt-2">Trip to Yogyakarta</p>
                     </div>
                 </div>
             </div>

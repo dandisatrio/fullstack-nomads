@@ -154,23 +154,23 @@
                     <tr>
                         <th width="50%">Additional Visa</th>
                         <td width="50%" class="text-right">
-                            ${{ $item->additional_visa }},00
+                            IDR. {{ $item->additional_visa }},00
                         </td>
                     </tr>
                     <tr>
                         <th width="50%">Trip Price</th>
                         <td width="50%" class="text-right">
-                            ${{ $item->travel_package->price }},00 / person
+                            IDR. {{ $item->travel_package->price }} / person
                         </td>
                     </tr>
                     <tr>
                         <th width="50%">Sub Total</th>
-                        <td width="50%" class="text-right">${{ $item->transaction_total }},00</td>
+                        <td width="50%" class="text-right">IDR. {{ $item->transaction_total }}</td>
                     </tr>
                     <tr>
                         <th width="50%">Total (+Unique)</th>
                         <td width="50%" class="text-right text-total">
-                            <span class="text-blue">${{ $item->transaction_total }},</span>
+                            <span class="text-blue">IDR. {{ $item->transaction_total }},</span>
                             <span class="text-orange">{{ mt_rand(0,99) }}</span>
                         </td>
                     </tr>

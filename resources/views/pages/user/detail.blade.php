@@ -119,7 +119,7 @@
                     </tr>
                     <tr>
                     <th width="50%">Price</th>
-                    <td width="50%" class="text-right">${{ $item->price }},00 / person</td>
+                    <td width="50%" class="text-right">IDR. {{ $item->price }} / person</td>
                     </tr>
                 </table>
                 </div>
