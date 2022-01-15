@@ -53,9 +53,10 @@ Start the local development server
 
 You can now access the server at http://localhost:8000
 
-## Thanks
+## See Yeah
 
 "Thanks for looking at my repository."
+"Have a nice day, don't forget to always be grateful"
 
 
 
