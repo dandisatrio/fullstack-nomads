@@ -238,19 +238,6 @@
                                 </table>
                               </td>
                             </tr>
-                            <tr>
-                              <td align="center" vertical-align="middle" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;">
-                                  <tbody>
-                                    <tr>
-                                      <td align="center" bgcolor="#ff9e53" role="presentation" style="border:none;border-radius:10px;cursor:auto;mso-padding-alt:10px 25px;background:#ff9e53;" valign="middle">
-                                        <a href="{{ url('checkout/' . $data->id) }}" style="display:inline-block;background:#ff9e53;color:#ffffff;font-family:Assistant, Helvetica, Arial, sans-serif;font-size:16px;font-weight:bold;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:10px;"> Check Detail </a>
-                                      </td>
-                                    </tr>
-                                  </tbody>
-                                </table>
-                              </td>
-                            </tr>
                           </tbody>
                         </table>
                       </td>
