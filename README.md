@@ -55,8 +55,9 @@ You can now access the server at http://localhost:8000
 
 ## See Yeah
 
-"Thanks for looking at my repository."
-"Have a nice day, don't forget to always be grateful"
+"Thanks for looking at my repository.
+
+Have a nice day, don't forget to always be grateful"
 
 
 
