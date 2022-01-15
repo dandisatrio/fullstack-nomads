@@ -53,11 +53,25 @@ Start the local development server
 
 You can now access the server at http://localhost:8000
 
-## See Yeah
+## Default Account for testing
+
+Admin Default Account
+
+    Email    : admin@mail.com
+    Password : admin123
+
+User Default Account
+
+    Email    : user@mail.com
+    Password : user12345
+
+or in another way copy my .env for dummy database gallery, transactions, and users.
+
+## See You
 
 "Thanks for looking at my repository.
 
-Have a nice day, don't forget to always be grateful"
+Have a nice day, don't forget to always be grateful."
 
 
 
