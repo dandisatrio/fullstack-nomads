@@ -107,7 +107,7 @@
                 <table class="trip-informations">
                     <tr>
                     <th width="50%">Date of Departure</th>
-                    <td width="50%" class="text-right">{{ \Carbon\Carbon::create($item->date_of_departures)->format('F n, Y') }}</td>
+                    <td width="50%" class="text-right">{{ \carbon\carbon::create($item->departure_date)->isoFormat('D MMMM Y') }}</td>
                     </tr>
                     <tr>
                     <th width="50%">Duration</th>
