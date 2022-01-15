@@ -17,11 +17,11 @@ Alternative installation is possible without local dependencies relying on [Dock
 
 Clone the repository
 
-    git clone git@github.com:gothinkster/laravel-realworld-example-app.git
+    git clone git@github.com:dandisatrio/laravel-example-app.git
 
 Switch to the repo folder
 
-    cd laravel-realworld-example-app
+    cd laravel-example-app
 
 Install all the dependencies using composer
 
@@ -39,8 +39,23 @@ Run the database migrations (**Set the database connection in .env before migrat
 
     php artisan migrate
 
+Run the database seeder and you're done
+
+    php artisan db:seed
+    
+Run Storage Link
+    
+    php artisan storage:link
+
 Start the local development server
 
     php artisan serve
 
 You can now access the server at http://localhost:8000
+
+## Thanks
+
+"Thanks for looking at my repository."
+
+
+
