@@ -56,8 +56,8 @@ class CheckoutController extends Controller
 
         if($item->is_visa)
         {
-            $transaction->transaction_total -= 190;
-            $transaction->additional_visa -= 190;
+            $transaction->transaction_total -= 150000;
+            $transaction->additional_visa -= 150000;
         }
 
         $transaction->transaction_total -= $transaction->travel_package->price;
@@ -85,8 +85,8 @@ class CheckoutController extends Controller
 
         if($request->is_visa)
         {
-            $transaction->transaction_total += 190;
-            $transaction->additional_visa += 190;
+            $transaction->transaction_total += 150000;
+            $transaction->additional_visa += 150000;
         }
 
         $transaction->transaction_total += $transaction->travel_package->price;
