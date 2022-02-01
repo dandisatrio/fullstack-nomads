@@ -67,7 +67,7 @@ or in another way import my laravel_nomads.sql to your database for dummy databa
 
 ## See You
 
-"Thanks for looking at my repository.
+"Thanks for looking at my repository and big thanks from Buildwith Angga.
 
 Have a nice day, don't forget to always be grateful."
 
